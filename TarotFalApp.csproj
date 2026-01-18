@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3CB7754B-A295-46E3-8C52-B93D4390DE1C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TarotFalApp</RootNamespace>
+    <AssemblyName>TarotFalApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppState.cs" />
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseSpread.cs" />
+    <Compile Include="Cardata.cs" />
+    <Compile Include="CareerSpread.cs" />
+    <Compile Include="ClassicTarotDeck.cs" />
+    <Compile Include="FairyTarotDeck.cs" />
+    <Compile Include="GeneralSpread.cs" />
+    <Compile Include="ISpread.cs" />
+    <Compile Include="ITarotDeck.cs" />
+    <Compile Include="LoveSpread.cs" />
+    <Compile Include="Properties\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionForm.Designer.cs">
+      <DependentUpon>SelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoundManager.cs" />
+    <Compile Include="SpreadManager.cs" />
+    <Compile Include="TarortCard.cs" />
+    <Compile Include="WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.cs">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\%281%29.jpg" />
+    <Content Include="Assets\back%282%29.jpg" />
+    <Content Include="Assets\WhatsApp Image 2025-12-22 at 15.51.39.jpeg" />
+    <None Include="Resources\click_effect.mp3" />
+    <None Include="Resources\computer-mouse-click-351398.mp3" />
+    <None Include="Resources\mystic_music.wav" />
+    <None Include="Resources\click_effect.wav" />
+    <None Include="Resources\yildiz-karti.png" />
+    <None Include="Resources\tilsim-yedilisi-karti.png" />
+    <None Include="Resources\tilsim-uclusu-karti.png" />
+    <None Include="Resources\tilsim-sovalyesi-karti.png" />
+    <None Include="Resources\tilsim-sekizlisi-karti.png" />
+    <None Include="Resources\tilsim-prensi-karti.png" />
+    <None Include="Resources\tilsim-onlusu-karti.png" />
+    <None Include="Resources\tilsim-krali-karti.png" />
+    <None Include="Resources\tilsim-kralicesi-karti.png" />
+    <None Include="Resources\tilsim-ikilisi-karti.png" />
+    <None Include="Resources\tilsim-dortlusu-karti.png" />
+    <None Include="Resources\tilsim-dokuzlusu-karti.png" />
+    <None Include="Resources\tilsim-beslisi-karti.png" />
+    <None Include="Resources\tilsim-asi-karti.png" />
+    <None Include="Resources\tilsim-altilisi-karti.png" />
+    <None Include="Resources\seytan-karti.png" />
+    <None Include="Resources\olum-karti.png" />
+    <None Include="Resources\mahkeme-karti.png" />
+    <None Include="Resources\kupa-yedilisi-karti.png" />
+    <None Include="Resources\kupa-uclusu-karti.png" />
+    <None Include="Resources\kupa-sovalyesi-karti.png" />
+    <None Include="Resources\kupa-sekizlisi-karti.png" />
+    <None Include="Resources\kupa-prensi-karti.png" />
+    <None Include="Resources\kupa-onlusu-karti.png" />
+    <None Include="Resources\kupa-krali-karti.png" />
+    <None Include="Resources\kupa-kralicesi-karti.png" />
+    <None Include="Resources\kupa-ikilisi-karti.png" />
+    <None Include="Resources\kupa-dortlusu-karti.png" />
+    <None Include="Resources\kupa-dokuzlusu-karti.png" />
+    <None Include="Resources\kupa-beslisi-karti.png" />
+    <None Include="Resources\kupa-asi-karti.png" />
+    <None Include="Resources\kupa-altilisi-karti.png" />
+    <None Include="Resources\kule-karti.png" />
+    <None Include="Resources\kilic-yedilisi-karti.png" />
+    <None Include="Resources\kilic-uclusu-karti.png" />
+    <None Include="Resources\kilic-sovalyesi-karti.png" />
+    <None Include="Resources\kilic-sekizlisi-karti.png" />
+    <None Include="Resources\kilic-prensi-karti.png" />
+    <None Include="Resources\kilic-onlusu-karti.png" />
+    <None Include="Resources\kilic-krali-karti.png" />
+    <None Include="Resources\kilic-kralicesi-karti.png" />
+    <None Include="Resources\kilic-ikilisi-karti.png" />
+    <None Include="Resources\kilic-dortlusu-karti.png" />
+    <None Include="Resources\kilic-dokuzlusu-karti.png" />
+    <None Include="Resources\kilic-beslisi-karti.png" />
+    <None Include="Resources\kilic-asi-karti.png" />
+    <None Include="Resources\kilic-altilisi-karti.png" />
+    <None Include="Resources\kader-carki.büyükarkana.png" />
+    <None Include="Resources\joker-deli-karti.büyükarkana.png" />
+    <None Include="Resources\imparator-karti.büyükarkana.png" />
+    <None Include="Resources\imparatorice-karti.büyükarkana.png" />
+    <None Include="Resources\gunes-karti.png" />
+    <None Include="Resources\guc-karti.büyükarkana.png" />
+    <None Include="Resources\ermis-karti.büyükarkana.png" />
+    <None Include="Resources\dunya-karti.png" />
+    <None Include="Resources\denge-karti.png" />
+    <None Include="Resources\degnek-yedilisi-karti.png" />
+    <None Include="Resources\degnek-uclusu-karti.png" />
+    <None Include="Resources\degnek-sovalyesi-karti.png" />
+    <None Include="Resources\degnek-sekizlisi-karti.png" />
+    <None Include="Resources\degnek-prensi-karti.png" />
+    <None Include="Resources\degnek-onlusu.png" />
+    <None Include="Resources\degnek-krali-karti.png" />
+    <None Include="Resources\degnek-kralicesi-karti.png" />
+    <None Include="Resources\degnek-ikilisi-karti.png" />
+    <None Include="Resources\degnek-dortlusu-karti.png" />
+    <None Include="Resources\degnek-dokuzlusu-karti.png" />
+    <None Include="Resources\degnek-beslisi-karti.png" />
+    <None Include="Resources\degnek-asi-karti.png" />
+    <None Include="Resources\degnek-altilisi-karti.png" />
+    <None Include="Resources\buyucu-karti.büyükarkana.png" />
+    <None Include="Resources\aziz-karti.büyükarkana.png" />
+    <None Include="Resources\azize-karti.büyükarkana.png" />
+    <None Include="Resources\ay-karti.png" />
+    <None Include="Resources\asilan-adam-karti.png" />
+    <None Include="Resources\asiklar-karti.büyükarkana.png" />
+    <None Include="Resources\araba-karti.büyükarkana.png" />
+    <None Include="Resources\adalet-karti.png" />
+    <None Include="Resources\adalet-karti.jpg" />
+    <None Include="Resources\WhatsApp Image 2025-12-22 at 15.56.58.jpeg" />
+    <None Include="Resources\back%282%29.jpg" />
+    <None Include="Resources\%281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

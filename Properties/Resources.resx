@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="back(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back(2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2025-12-22 at 15.56.58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2025-12-22 at 15.56.58.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adalet_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adalet-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="araba_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\araba-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asiklar_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asiklar-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asilan_adam_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asilan-adam-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ay_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ay-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="azize_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azize-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aziz_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aziz-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buyucu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buyucu-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_altilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-altilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_asi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-asi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_beslisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-beslisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_dokuzlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-dokuzlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_dortlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-dortlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_ikilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-ikilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_kralicesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-kralicesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_krali_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-krali-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_onlusu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-onlusu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_prensi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-prensi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_sekizlisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-sekizlisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_sovalyesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-sovalyesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_uclusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-uclusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="degnek_yedilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\degnek-yedilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="denge_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\denge-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dunya_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dunya-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ermis_karti_büyükarkana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ermis-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guc_karti_büyükarkana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guc-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gunes_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gunes-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imparatorice_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imparatorice-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imparator_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imparator-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joker_deli_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joker-deli-karti.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kader_carki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kader-carki.büyükarkana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_altilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-altilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_asi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-asi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_beslisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-beslisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_dokuzlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-dokuzlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_dortlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-dortlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_ikilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-ikilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_kralicesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-kralicesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_krali_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-krali-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_onlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-onlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_prensi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-prensi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_sekizlisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-sekizlisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_sovalyesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-sovalyesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_uclusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-uclusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kilic_yedilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kilic-yedilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kule_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kule-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_altilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-altilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_asi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-asi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_beslisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-beslisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_dokuzlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-dokuzlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_dortlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-dortlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_ikilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-ikilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_kralicesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-kralicesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_krali_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-krali-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_onlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-onlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_prensi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-prensi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_sekizlisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-sekizlisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_sovalyesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-sovalyesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_uclusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-uclusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kupa_yedilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupa-yedilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahkeme_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahkeme-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="olum_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\olum-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seytan_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seytan-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_altilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-altilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_asi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-asi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_beslisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-beslisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_dokuzlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-dokuzlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_dortlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-dortlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_ikilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-ikilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_kralicesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-kralicesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_krali_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-krali-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_onlusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-onlusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_prensi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-prensi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_sekizlisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-sekizlisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_sovalyesi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-sovalyesi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_uclusu_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-uclusu-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tilsim_yedilisi_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tilsim-yedilisi-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yildiz_karti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yildiz-karti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="click_effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\click_effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="click_effect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\click_effect.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="computer_mouse_click_351398" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computer-mouse-click-351398.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mystic_music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mystic_music.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
